@@ -24,3 +24,16 @@
 
 // 9.802 km/l
 
+// dist = gets();
+// consumo = gets();
+
+// avg = dist / consumo;
+
+// console.log(new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 5 }).format(avg) + " km/l");
+
+let X = parseInt(gets());
+let Y = parseFloat(gets());
+
+let avg_consumo = parseFloat(X / Y).toFixed(3);
+
+console.log(avg_consumo + " km/l");
